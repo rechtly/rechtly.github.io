@@ -24,6 +24,8 @@
 		<nav>
 			<div class="container">
 				<a href="{{ site.baseurl }}">{% include logo.html %}</a>
+				<a href="{{ '/terms-of-use/' | relative_url }}">Terms of Use</a>
+				<a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
 			</div>
 		</nav>
 		<div class="content">
@@ -55,14 +57,8 @@
 				</div>
 
 				<div class="sharing">
-					<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
-						{% include icons/social-media.html social_icon="facebook" %}
-					</a>
 					<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
 						{% include icons/social-media.html social_icon="twitter" %}
-					</a>
-					<a class="youtube" href="https://youtube.com/{{ site.data.company.youtube }}">
-						{% include icons/social-media.html social_icon="youtube" %}
 					</a>
 				</div>
 			</div>
